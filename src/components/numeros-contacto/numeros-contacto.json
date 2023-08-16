@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_numeros_contacto_numeros_contactos",
+  "info": {
+    "displayName": "numerosContacto",
+    "icon": "envelop"
+  },
+  "options": {},
+  "attributes": {
+    "whatsapp": {
+      "type": "string"
+    },
+    "telefono": {
+      "type": "string"
+    }
+  }
+}

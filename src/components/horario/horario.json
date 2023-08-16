@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_horario_horarios",
+  "info": {
+    "displayName": "horario",
+    "icon": "calendar"
+  },
+  "options": {},
+  "attributes": {
+    "diaHora": {
+      "type": "string"
+    }
+  }
+}

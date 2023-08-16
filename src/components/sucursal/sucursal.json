@@ -1,0 +1,10 @@
+{
+  "collectionName": "components_sucursal_sucursals",
+  "info": {
+    "displayName": "sucursal",
+    "icon": "connector",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {}
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_caracteristica_detalle_caracteristica_detalles",
+  "info": {
+    "displayName": "caracteristicaDetalle",
+    "icon": "filePdf"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "imagen": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

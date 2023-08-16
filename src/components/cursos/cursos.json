@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_cursos_cursos",
+  "info": {
+    "displayName": "cursos",
+    "icon": "check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "detalleCurso": {
+      "displayName": "detalleCurso",
+      "type": "component",
+      "repeatable": true,
+      "component": "detalle-curso.detalle-curso"
+    }
+  }
+}

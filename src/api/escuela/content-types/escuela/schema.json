@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "escuelas",
+  "info": {
+    "singularName": "escuela",
+    "pluralName": "escuelas",
+    "displayName": "escuela",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sucursal": {
+      "type": "string"
+    },
+    "coordenadas": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "horarios": {
+      "type": "component",
+      "repeatable": true,
+      "component": "horario.horario"
+    },
+    "numerosContacto": {
+      "type": "component",
+      "repeatable": false,
+      "component": "numeros-contacto.numeros-contacto"
+    },
+    "cursos": {
+      "displayName": "cursos",
+      "type": "component",
+      "repeatable": false,
+      "component": "cursos.cursos"
+    },
+    "direccion": {
+      "type": "component",
+      "repeatable": false,
+      "component": "direccion.direccion"
+    },
+    "terminosCondiciones": {
+      "type": "text"
+    },
+    "caracteristicas": {
+      "type": "component",
+      "repeatable": false,
+      "component": "caracteristicas.caracteristicas"
+    },
+    "titulo": {
+      "type": "string"
+    }
+  }
+}

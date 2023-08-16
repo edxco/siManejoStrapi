@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_direccion_direccions",
+  "info": {
+    "displayName": "direccion",
+    "icon": "cloud"
+  },
+  "options": {},
+  "attributes": {
+    "linea1": {
+      "type": "string"
+    },
+    "linea2": {
+      "type": "string"
+    },
+    "ciudad": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_detalle_curso_detalle_cursos",
+  "info": {
+    "displayName": "detalleCurso",
+    "icon": "alien",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "costo": {
+      "type": "decimal"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "dias": {
+      "type": "string"
+    },
+    "horas": {
+      "type": "string"
+    }
+  }
+}
