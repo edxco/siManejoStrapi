@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "inicios",
+  "info": {
+    "singularName": "inicio",
+    "pluralName": "inicios",
+    "displayName": "inicio",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "beneficios": {
+      "type": "component",
+      "repeatable": true,
+      "component": "highlight.highlight"
+    }
+  }
+}

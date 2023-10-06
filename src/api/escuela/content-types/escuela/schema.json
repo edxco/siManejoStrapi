@@ -56,6 +56,18 @@
     },
     "titulo": {
       "type": "string"
+    },
+    "slug": {
+      "type": "string",
+      "regex": "^[A-Za-z]+$"
+    },
+    "bgBoton": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

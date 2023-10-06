@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_highlight_highlights",
+  "info": {
+    "displayName": "highlight",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "icono": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_benefit_benefits",
+  "info": {
+    "displayName": "benefit",
+    "icon": "arrowUp"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "icono": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
