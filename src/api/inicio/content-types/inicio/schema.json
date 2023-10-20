@@ -16,6 +16,12 @@
       "type": "component",
       "repeatable": true,
       "component": "highlight.highlight"
+    },
+    "paymentOption": {
+      "displayName": "opcionesPago",
+      "type": "component",
+      "repeatable": true,
+      "component": "opciones-pago.opciones-pago"
     }
   }
 }

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_footer_links_footer_links",
+  "info": {
+    "displayName": "footerLinks",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}
