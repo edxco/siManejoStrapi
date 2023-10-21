@@ -68,6 +68,12 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "schoolbanner": {
+      "displayName": "schoolbanner",
+      "type": "component",
+      "repeatable": true,
+      "component": "schoolbanner.schoolbanner"
     }
   }
 }
