@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_schoolbanner_schoolbanners",
+  "info": {
+    "displayName": "schoolbanner",
+    "icon": "discuss"
+  },
+  "options": {},
+  "attributes": {
+    "topTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "bottomTitle": {
+      "type": "string"
+    },
+    "bgImage": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
