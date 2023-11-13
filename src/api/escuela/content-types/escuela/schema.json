@@ -4,7 +4,7 @@
   "info": {
     "singularName": "escuela",
     "pluralName": "escuelas",
-    "displayName": "escuela",
+    "displayName": "Escuela",
     "description": ""
   },
   "options": {
@@ -59,7 +59,8 @@
     },
     "slug": {
       "type": "string",
-      "regex": "^[A-Za-z]+$"
+      "regex": "^[A-Za-z]+$",
+      "unique": true
     },
     "bgBoton": {
       "type": "media",

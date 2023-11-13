@@ -13,12 +13,6 @@
   "attributes": {
     "categoria": {
       "type": "string"
-    },
-    "blog": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::blog.blog",
-      "mappedBy": "blog_categoria"
     }
   }
 }
