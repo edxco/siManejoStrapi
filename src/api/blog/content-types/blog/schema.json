@@ -36,9 +36,8 @@
     },
     "blog_categoria": {
       "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::blog-categoria.blog-categoria",
-      "inversedBy": "blog"
+      "relation": "oneToOne",
+      "target": "api::blog-categoria.blog-categoria"
     },
     "slug": {
       "type": "uid",

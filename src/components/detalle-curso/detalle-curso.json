@@ -21,6 +21,10 @@
     },
     "horas": {
       "type": "string"
+    },
+    "mostPopular": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
