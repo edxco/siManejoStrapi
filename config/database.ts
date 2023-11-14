@@ -7,12 +7,13 @@ export default ({ env }) => ({
       database: env("DATABASE_NAME", "simanejostrapi"),
       user: env("DATABASE_USERNAME", ""),
       password: env("DATABASE_PASSWORD", ""),
-    //   ssl: {
-    //     rejectUnauthorized: env.bool("DATABASE_SSL_SELF", false), // For self-signed certificates
-    //   },
-    // },
-    // options: {
-    //   ssl: env.bool("DATABASE_SSL", true),
+      ssl: {
+        rejectUnauthorized: env.bool("DATABASE_SSL_SELF", false), // For self-signed certificates
+      },
     },
+    options: {
+      ssl: env.bool("DATABASE_SSL", true),
+    },
+    useNullAsDefault: true,
   },
 });
