@@ -19,12 +19,15 @@
     "dias": {
       "type": "string"
     },
-    "horas": {
+    "totalHours": {
       "type": "string"
     },
     "mostPopular": {
       "type": "boolean",
       "default": false
+    },
+    "alternativeHours": {
+      "type": "string"
     }
   }
 }
