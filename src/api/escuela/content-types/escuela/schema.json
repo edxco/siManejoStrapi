@@ -15,9 +15,6 @@
     "sucursal": {
       "type": "string"
     },
-    "coordenadas": {
-      "type": "string"
-    },
     "descripcion": {
       "type": "customField",
       "options": {
@@ -75,6 +72,11 @@
       "type": "component",
       "repeatable": true,
       "component": "schoolbanner.schoolbanner"
+    },
+    "coordenadas": {
+      "type": "component",
+      "repeatable": false,
+      "component": "coordenadas-mapa.coordenadas-mapa"
     }
   }
 }

@@ -26,8 +26,12 @@
       "type": "boolean",
       "default": false
     },
-    "alternativeHours": {
+    "hoursPerDay": {
       "type": "string"
+    },
+    "optionalHours": {
+      "type": "string",
+      "default": "0"
     }
   }
 }
