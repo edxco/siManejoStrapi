@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_coordenadas_mapa_coordenadas_mapas",
+  "info": {
+    "displayName": "coordenadasMapa",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "lat": {
+      "type": "string"
+    },
+    "lng": {
+      "type": "string"
+    }
+  }
+}
